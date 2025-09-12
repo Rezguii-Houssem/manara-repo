@@ -39,7 +39,7 @@ This project is suitable for learning **serverless application development** and
 
 **Flow:**  
 *CloudFront → S3 (frontend) → Browser → API Gateway → Lambda (Python CRUD) → DynamoDB*
-![Architecture Diagram](./Img/Cloudfront.png)
+![Architecture Diagram](./Docs/diagram-manara.png)
 
 ---
 
