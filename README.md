@@ -1,4 +1,4 @@
-# manara-repo
+# Manara-repo
 Manara Learning Path Graduation Project: Serverless To-Do List Application
 
 # 📝 To-Do List Application – Manara Learning Path Graduation Project
