@@ -39,39 +39,6 @@ This project is suitable for learning **serverless application development** and
 
 **Flow:**  
 *CloudFront → S3 (frontend) → Browser → API Gateway → Lambda (Python CRUD) → DynamoDB*
-     Web Browser (User)
-        │
-        ▼
-  ┌─────────────┐
-  │ CloudFront  │  ← Public-facing entry point
-  └─────┬──────┘
-        │
-        ▼
-  ┌─────────────┐
-  │     S3      │  ← Stores index.html (frontend files)
-  │  Static     │
-  │  Website    │
-  └─────┬──────┘
-        │
-        ▼
-  ┌─────────────┐
-  │ API Gateway │  ← Backend API endpoint
-  │  REST API   │
-  └─────┬──────┘
-        │
-        ▼
-  ┌─────────────┐
-  │   Lambda    │  ← Python CRUD
-  └─────┬──────┘
-        │
-        ▼
-  ┌─────────────┐
-  │ DynamoDB    │
-  │  Tasks Table│
-  └─────────────┘
-
-
-
 ![Architecture Diagram](./docs/architecture.png)
 
 ---
