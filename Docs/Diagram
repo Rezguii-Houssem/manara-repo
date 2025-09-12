@@ -21,3 +21,5 @@ Fixed origin name and behavior settings.
 
 Security: Configured permissions so CloudFront can read from the S3 bucket.
 
+![Cloudfront Configuration](/Img/Cloudfront.png)
+
