@@ -1,9 +1,9 @@
-To-Do List App - Complete Showcase
- Application Overview
+# To-Do List App - Complete Showcase
+Application Overview
 A modern, responsive To-Do List application built with a serverless architecture on AWS. 
 This application demonstrates a complete full-stack implementation with seamless integration between frontend and backend services.
 
-##Frontend UI
+## Frontend UI
 
 Purpose: Provide the user interface for the To-Do List application.
 
@@ -22,7 +22,7 @@ Connected to API Gateway to perform backend operations (create, read, update, de
 Designed for static hosting on S3
 ![Frontend_UI](./Img/Thefrontend-app.png)
 
-##CloudFront
+## CloudFront
 
 Purpose: Distribute the frontend securely and efficiently.
 
@@ -43,7 +43,7 @@ Security: Configured permissions so CloudFront can read from the S3 bucket.
 ![CloudFront](./Img/cloudfront-setting.png)
 
 
-##S3 Bucket (Frontend Storage)
+## S3 Bucket (Frontend Storage)
 
 Purpose: Store static frontend files (HTML, CSS, JavaScript).
 
@@ -56,7 +56,7 @@ Uploaded the frontend file, which contains HTML, CSS, and JavaScript logic for t
 Configured permissions so CloudFront can access the content.
 ![S3-Bucket](./Img/S3-policy.png)
 
-##API Gateway (Backend API)
+## API Gateway (Backend API)
 
 Purpose: Handle frontend requests and connect to Lambda functions.
 
@@ -73,7 +73,7 @@ Allowed origin: * (everyone)
 Allowed headers: Content-Type, Authorization
 ![API_GATEWAY](./Img/Api_gateway.png)
 
-##Lambda Functions
+## Lambda Functions
 
 Purpose: Execute backend logic for CRUD operations.
 
@@ -96,7 +96,7 @@ Configured handlers correctly for API Gateway integration.
 Tested each function independently and then tested end-to-end with frontend.
 ![Lambda_function](./Img/Lambda-fonctions.png)
 
-##End-to-End Flow
+## End-to-End Flow
 
 User accesses the frontend via CloudFront.
 
