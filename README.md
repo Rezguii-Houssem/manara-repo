@@ -41,6 +41,8 @@ This project is suitable for learning **serverless application development** and
 *CloudFront → S3 (frontend) → Browser → API Gateway → Lambda (Python CRUD) → DynamoDB*
 ![Architecture Diagram](./Docs/diagram-manara.png)
 
+![Frontend_UI](./Img/Thefrontend-app.png)
+
 ---
 
 ## Frontend & Backend Setup
