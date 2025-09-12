@@ -21,4 +21,4 @@ Fixed origin name and behavior settings.
 
 Security: Configured permissions so CloudFront can read from the S3 bucket.
 
-https://github.com/houssem530/manara-repo/blob/385b7a41eb9ad3e175e8e35910236321f6b94795/Img/Cloudfront.png
+![image_alt](https://github.com/houssem530/manara-repo/blob/385b7a41eb9ad3e175e8e35910236321f6b94795/Img/Cloudfront.png)
