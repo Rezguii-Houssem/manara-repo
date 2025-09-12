@@ -101,5 +101,5 @@ Include screenshots of the app UI in docs/screenshots/ for demonstration.
 License
 
 This project is licensed under the MIT License.
-![image_alt](https://github.com/houssem530/manara-repo/blob/385b7a41eb9ad3e175e8e35910236321f6b94795/Img/Cloudfront.png)
+
 
