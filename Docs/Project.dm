@@ -22,7 +22,6 @@ Connected to API Gateway to perform backend operations (create, read, update, de
 Designed for static hosting on S3
 ![Frontend_UI](./Img/Thefrontend-app.png)
 
-
 ##CloudFront
 
 Purpose: Distribute the frontend securely and efficiently.
