@@ -107,4 +107,4 @@ API Gateway triggers the corresponding Lambda function.
 Lambda interacts with DynamoDB (if used) to perform CRUD operations.
 
 Results are sent back to the frontend and displayed to the user.
-![Architecture](./Docs/diagram-manara.png)
+![Architecture](./Img/diagram-manara.png)
