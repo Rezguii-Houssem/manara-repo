@@ -65,7 +65,7 @@ Open index.html and update the API_BASE variable with your API Gateway URL:
 
 const API_BASE = "https://abc123.execute-api.eu-west-3.amazonaws.com/prod";
 
-3. Deploy Frontend to S3 + CloudFront<img width="642" height="249" alt="diagram-manara" src="https://github.com/user-attachments/assets/25082552-6516-42e3-b70a-8a4425fc8ff2" />
+3. Deploy Frontend to S3 + CloudFront
 
 
 Create an S3 bucket (enable static website hosting)
