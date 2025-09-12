@@ -102,4 +102,5 @@ License
 
 This project is licensed under the MIT License.
 
-![CloudFront Configuration](https://github.com/houssem530/manara-repo/raw/main/Img/Cloudfront.png)
+
+![CloudFront Configuration](https://raw.githubusercontent.com/houssem530/manara-repo/main/Img/Cloudfront.png?raw=true)
