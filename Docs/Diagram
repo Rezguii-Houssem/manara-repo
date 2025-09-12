@@ -1,1 +1,23 @@
+To-Do List App - Complete Showcase
+ Application Overview
+A modern, responsive To-Do List application built with a serverless architecture on AWS. 
+This application demonstrates a complete full-stack implementation with seamless integration between frontend and backend services.
+
+CloudFront
+
+Purpose: Distribute the frontend securely and efficiently.
+
+Setup:
+
+Created a CloudFront distribution pointing to the S3 bucket (frontend storage).
+
+Set caching to 30 seconds to refresh content frequently.
+
+Configured default root object as index.html.
+
+Enabled HTTP versions: 1.0 and 2.1.
+
+Fixed origin name and behavior settings.
+
+Security: Configured permissions so CloudFront can read from the S3 bucket.
 
